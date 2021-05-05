@@ -1,2 +1,2 @@
-# tarot-do-golpe
-Trabalho para Perfídia 2021.
+# tarot
+Jogo inspirado no Tarô do Impeachment.
