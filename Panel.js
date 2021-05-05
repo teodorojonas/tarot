@@ -63,7 +63,7 @@ function Panel(t) {
         fill('#3215c1');      
         text(_PANEL_TITLE_INSTRUCTIONS,_CARD_WIDTH+9,58)
         textStyle(NORMAL);
-        textSize(20);
+        textSize(18);
         text(_PANEL_INSTRUCTIONS,_CARD_WIDTH,98,800);
         textLeading(22*1.1);
         fill(255);
@@ -84,9 +84,9 @@ function Panel(t) {
         textLeading(22*1.1);
         fill(255);
         textSize(38)        
-        rect(_CARD_WIDTH,this.size + 30,textWidth(_PANEL_BEGIN)*1.05,48);
+        rect(_CARD_WIDTH,this.size + 20,textWidth(_PANEL_BEGIN)*1.05,48);
         fill("#277713");
-        text(_PANEL_BEGIN,_CARD_WIDTH+10,this.size + 30 + 36)
+        text(_PANEL_BEGIN,_CARD_WIDTH+10,this.size + 20 + 36)
       } else if (this.type == _PANEL_TYPE_RESULTS) { 
         let c1 = new Card(0,_PANEL_CARDS_VERT_OFFSET,this.pickedCards[0],undefined,new function() { this.position = createVector(10,0); });
         c1.size.x = c1.size.x*_PANEL_CARD_FULL_SIZE;
@@ -117,7 +117,7 @@ function Panel(t) {
         rotate(radians(2));
         c3.show();
         pop();
-        textSize(14);
+        textSize(12);
         fill('#3215c1');  
         if (!this._isStarting) {
           text(this.text,_CARD_WIDTH+_CARD_WIDTH*4.2,70,width/1.8);        
@@ -125,9 +125,9 @@ function Panel(t) {
         textLeading(22*1.1);
         fill(255);
         textSize(38)        
-        rect(_CARD_WIDTH,this.size + 30,textWidth(_PANEL_RESTART)*1.05,48);
+        rect(_CARD_WIDTH,this.size + 20,textWidth(_PANEL_RESTART)*1.05,48);
         fill("#277713");
-        text(_PANEL_RESTART,_CARD_WIDTH+10,this.size + 30+36)
+        text(_PANEL_RESTART,_CARD_WIDTH+10,this.size + 20+36)
       }
       pop();      
     }
