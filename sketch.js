@@ -54,8 +54,8 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  _CARD_WIDTH = width/13;
-  _CARD_HEIGHT = _CARD_WIDTH*1.5;
+  _CARD_HEIGHT = height/5;
+  _CARD_WIDTH = _CARD_HEIGHT*0.6666;
   _CARD_CORNER = _CARD_WIDTH/12;
   _CARD_BORDER_SIZE = _CARD_WIDTH/15;
   _DECK_CARD_MARGIN = _CARD_HEIGHT/10;  
