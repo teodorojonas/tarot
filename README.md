@@ -1,2 +1,2 @@
-# tarot
-Jogo inspirado na obra Tarô Impeachment.
+# tarot-do-golpe
+Trabalho para Perfídia 2021.
